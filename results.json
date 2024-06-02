@@ -1,0 +1,21 @@
+{
+  "test_read_data": "TypeError(\"object of type 'function' has no len()\")",
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 8,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": "NameError(\"name 'best_model_cfg' is not defined\")",
+  "test_glove": "NameError(\"name 'get_emb_matrix' is not defined\")"
+}
